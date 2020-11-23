@@ -1,23 +1,21 @@
-//The component that loads first and defines the route paths
-
-import Header from './components/Header'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 
+import Header from './components/Header'
 import Welcome from './components/Welcome'
-import UserList from './components/UserList'
-import AddUser from './components/AddUser'
-import EditUser from './components/EditUser'
+import FruitList from './components/FruitList'
+import AddFruit from './components/AddFruit'
+import EditFruit from './components/EditFruit'
 
 function App() {
   return (
     <Router>
       <Header />
       <Container>
-        <Route path='/' component={Welcome} exact />
-        <Route path='/userlist' component={UserList} />
-        <Route path='/adduser' component={AddUser} />
-        <Route path='/user/:id' component={EditUser} />
+        <Route path='/' exact component={Welcome} />
+        <Route path='/fruitlist' component={FruitList} />
+        <Route path='/addfruit' component={AddFruit} />
+        <Route path='/fruit/:id' component={EditFruit} />
       </Container>
     </Router>
   );

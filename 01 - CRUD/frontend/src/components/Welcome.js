@@ -1,5 +1,3 @@
-//Landing page component
-
 import React from 'react'
 
 const Welcome = () => {
