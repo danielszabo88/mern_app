@@ -1,25 +1,27 @@
-GET http://localhost:5000/api/users 
+GET http://localhost:5000/api/fruits
 
 ###
 
-POST http://localhost:5000/api/users 
+POST http://localhost:5000/api/fruits
 Content-Type: application/json
 
 {
-    "firstName": "Carrot",
-    "lastName": "Three"
+    "name": "Carrot",
+    "amount": 5,
+    "info": "Not a Fruit"
 }
 
 ###
 
-DELETE http://localhost:5000/api/users/5f9feaf1aee6f60b08185f44
+DELETE http://localhost:5000/api/fruits/5fba4ab559003a0c88bbd503
 
 ###
 
-PUT http://localhost:5000/api/users/5f9feadcaee6f60b08185f42
+PUT http://localhost:5000/api/fruits/5fba4aaa59003a0c88bbd502
 Content-Type: application/json
 
 {
-    "firstName": "Adam",
-    "lastName": "One"
+    "name": "Banana",
+    "amount": 3,
+    "info": "Yellow Gentleman"
 }
