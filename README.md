@@ -1,7 +1,7 @@
 # mern_app
 building a web app with mern stack
 
-01 - CRUD: performing CRUD operations from the frontend on a mongo database
+01 - CRUD: performing CRUD operations from the frontend on a mongo database\n
 02 - Auth: adding user authentication, user authorization, protected routes (using JWT)
 
 To run an app:
