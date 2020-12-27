@@ -3,14 +3,20 @@ const mongoose = require('mongoose')
 const fruitSchema = mongoose.Schema({
     name:{
         type: String,
-        required: true
+        required: true,
+        maxlength: 30
     },
     amount:{
         type: Number,
         default: 0
     },
     info:{
-        type: String
+        type: String,
+        maxlength: 100
+    },
+    addedBy:{
+        type: String,
+        default: "unknown"
     },
     date:{
         type: Date,
