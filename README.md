@@ -10,5 +10,5 @@ To run an app:
 - set the environment variables (Connection String, JWT Secret)
 > npm run dev
 
-Link to the youtube tutorials:
-https://www.youtube.com/watch?v=4NWwgyuYxoA&list=PLo6lBZn6hgcam7WbOrVsh13Tbbefgpf9M&ab_channel=danielstuts
+[Link to the youtube tutorials](https://www.youtube.com/watch?v=4NWwgyuYxoA&list=PLo6lBZn6hgcam7WbOrVsh13Tbbefgpf9M&ab_channel=danielstuts)
+
