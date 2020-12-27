@@ -1,10 +1,10 @@
 # mern_app
-building a web app with mern stack
+## Building a web app with MERN stack
 
 01 - CRUD: performing CRUD operations from the frontend on a mongo database  
-02 - Auth: adding user authentication, user authorization, protected routes (using JWT)
+02 - Auth: adding user authentication, user authorization, protected routes (using JWT)  03 - Coming Soon
 
-To run an app:
+### To run an app:
 - download and open a folder
 > npm intall && npm --prefix frontend install
 - set the environment variables (Connection String, JWT Secret)
