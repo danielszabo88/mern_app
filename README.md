@@ -2,7 +2,8 @@
 ## Building a web app with MERN stack
 
 01 - CRUD: performing CRUD operations from the frontend on a mongo database  
-02 - Auth: adding user authentication, user authorization, protected routes (using JWT)  03 - Coming Soon
+02 - Auth: adding user authentication, user authorization, protected routes (using JWT)  
+03 - Coming Soon
 
 ### To run an app:
 - download and open a folder
@@ -10,5 +11,5 @@
 - set the environment variables (Connection String, JWT Secret)
 > npm run dev
 
-[Link to the youtube tutorials](https://www.youtube.com/watch?v=4NWwgyuYxoA&list=PLo6lBZn6hgcam7WbOrVsh13Tbbefgpf9M&ab_channel=danielstuts)
+### [Link to the youtube tutorials](https://www.youtube.com/watch?v=4NWwgyuYxoA&list=PLo6lBZn6hgcam7WbOrVsh13Tbbefgpf9M&ab_channel=danielstuts)
 
