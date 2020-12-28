@@ -19,7 +19,7 @@ const Header = () => {
       <Navbar bg="light" expand="lg">
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>WELCOME</Navbar.Brand>
+            <Navbar.Brand>&#127822; WELCOME &#127822;</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
