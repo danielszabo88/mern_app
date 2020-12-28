@@ -54,7 +54,7 @@ const EditFruit = ({ match }) => {
       <p>
         <b>ID: {fruit._id}</b>
       </p>
-      <label>Fruit Name: </label>
+      <label>Fruit Name&nbsp; </label>
       <input
         type="text"
         name="name"
@@ -63,7 +63,7 @@ const EditFruit = ({ match }) => {
         onChange={handleChange}
       />
       <br />
-      <label>Amount: </label>
+      <label>Amount&nbsp; </label>
       <input
         type="text"
         name="amount"
@@ -71,7 +71,7 @@ const EditFruit = ({ match }) => {
         onChange={handleChange}
       />
       <br />
-      <label>Info: </label>
+      <label>Info&nbsp; </label>
       <input
         type="text"
         name="info"
@@ -84,6 +84,7 @@ const EditFruit = ({ match }) => {
           <Button className="btn btn-warning" onClick={fruitUpdate}>
             Update Fruit
           </Button>
+          &nbsp;
           <Button className="btn btn-danger" onClick={fruitDelete}>
             Delete Fruit
           </Button>

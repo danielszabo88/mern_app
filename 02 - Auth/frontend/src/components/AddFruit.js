@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
 import { UserContext } from "../App";
+import { Button } from "react-bootstrap";
 
 const AddFruit = () => {
   const { userData, setUserData } = useContext(UserContext);
@@ -50,7 +51,7 @@ const AddFruit = () => {
     <div>
       <h1>Add Fruits Here!</h1>
       <form onSubmit={handleSubmit}>
-        <label>Fruit Name: </label>
+        <label>Fruit Name&nbsp; </label>
         <input
           type="text"
           name="name"
@@ -59,7 +60,7 @@ const AddFruit = () => {
           onChange={handleChange}
         />
         <br />
-        <label>Amount: </label>
+        <label>Amount&nbsp; </label>
         <input
           type="text"
           name="amount"
@@ -67,7 +68,7 @@ const AddFruit = () => {
           onChange={handleChange}
         />
         <br />
-        <label>Info: </label>
+        <label>Extra Info&nbsp; </label>
         <input
           type="text"
           name="info"
@@ -76,7 +77,7 @@ const AddFruit = () => {
         />
         <br />
         {userData.user ? (
-          <input type="submit" value="Add Fruit!" />
+          <Button variant="success" type="submit">Add Fruit</Button>
         ) : (
           <p>You need to be logged in to Add Fruit!</p>
         )}

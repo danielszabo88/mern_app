@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { UserContext } from "../../App";
 import ErrorMsg from "../ErrorMsg";
 import axios from "axios";
+import { Button } from "react-bootstrap";
 
 const Register = () => {
   const { userData, setUserData } = useContext(UserContext);
@@ -64,11 +65,11 @@ const Register = () => {
   return (
     <div>
       <h1>Register Here</h1>
-
+      <br/>
       {errorMsg && <ErrorMsg msg={errorMsg} />}
 
       <form onSubmit={handleSubmit}>
-        <label>User Name: </label>
+        <label>User Name&nbsp; </label>
         <input
           type="text"
           name="name"
@@ -77,7 +78,7 @@ const Register = () => {
           onChange={handleChange}
         />
         <br />
-        <label>Password: </label>
+        <label>Password&nbsp; </label>
         <input
           type="password"
           name="password"
@@ -85,7 +86,7 @@ const Register = () => {
           onChange={handleChange}
         />
         <br />
-        <label>Password Again: </label>
+        <label>Password Again&nbsp; </label>
         <input
           type="password"
           name="passwordAgain"
@@ -93,7 +94,7 @@ const Register = () => {
           onChange={handleChange}
         />
         <br />
-        <input type="submit" value="Register User!" />
+        <Button variant="primary" type="submit">Register User!</Button>
       </form>
     </div>
   );
