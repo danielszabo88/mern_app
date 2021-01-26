@@ -3,7 +3,7 @@
 
 01 - CRUD: performing CRUD operations from the frontend on a mongo database  
 02 - Auth: adding user authentication, user authorization, protected routes (using JWT)  
-03 - socket.io (coming soon)
+03 - Chat: general chat, chat rooms and private chatting (using socket.io)
 
 ### To run an app:
 - download and open a folder
