@@ -6,8 +6,8 @@
 03 - Chat: implementing general chat, chat rooms and private chatting (with socket.io)
 
 ### To run an app:
-- download and open a folder
-- install the dependencies in the root folder and in the frontend folder:
+- download and open one of the folders
+- install the dependencies in the root folder and in the /frontend folder:
 > npm install  
 > cd frontend  
 > npm install  
