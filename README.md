@@ -8,7 +8,10 @@
 ### To run an app:
 - download and open a folder
 - install the dependencies in the root folder and in the frontend folder:
-> npm install  > cd frontend  > npm install  > cd..
+> npm install  
+> cd frontend  
+> npm install  
+> cd..
 - set the environment variables in the .env (Connection String, JWT Secret)
 - start frontend and backend simultaneously (from the root directory):
 > npm run dev
